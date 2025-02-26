@@ -1496,6 +1496,17 @@ class Api
     }
 
     /**
+     * @param array $params
+     * @return TeletantHookResponse|TeletantResponse|Closure
+     * @throws TeletantException
+     */
+    public function createChatInviteLink(array $params)
+    {
+
+        return $this->invokeAction('createChatInviteLink', $params);
+    }
+
+    /**
      * @param $params
      * @return GameHighScores
      * @throws TeletantException
