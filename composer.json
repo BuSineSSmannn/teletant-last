@@ -2,7 +2,7 @@
     "name": "jaysondev/teletant-last",
     "description": "Telegram bot framework",
     "type": "library",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "keywords": ["telegram", "teletant", "telebot", "bot", "PHP", "video", "stickers", "audio", "files"],
     "require": {
         "php": "^7.4|^8",
